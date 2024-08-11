@@ -42,3 +42,15 @@ Desencriptar Texto:
 Introduce el texto encriptado en el campo de entrada.
 Haz clic en el botón "Desencriptar".
 El texto desencriptado aparecerá en el área de salida.
+
+**Contribuciones**
+
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar el proyecto o has encontrado un problema, por favor sigue estos pasos:
+
+Fork del repositorio.
+Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+Realiza tus cambios y haz commit (git commit -am 'Añade nueva característica').
+Envía tus cambios (git push origin feature/nueva-caracteristica).
+Crea un Pull Request.
+
+

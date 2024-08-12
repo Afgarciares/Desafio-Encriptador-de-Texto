@@ -21,6 +21,7 @@ btnEncriptar.addEventListener("click", e=>{
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
+            aviso.textContent = "Solo letras minúsculas y sin acentos";
         },1500);
 
     }
@@ -29,10 +30,11 @@ btnEncriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "No debe tener acentos y caracteres especiales";
+        aviso.textContent = "El texto no debe tener acentos y caracteres especiales";
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
+            aviso.textContent = "Solo letras minúsculas y sin acentos";
         },1500);
     }
 
@@ -44,6 +46,7 @@ btnEncriptar.addEventListener("click", e=>{
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
+            aviso.textContent = "Solo letras minúsculas y sin acentos";
         },1500);
     }
 
@@ -86,10 +89,11 @@ btnDesencriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "No debe tener acentos y caracteres especiales";
+        aviso.textContent = "El textp no debe tener acentos y caracteres especiales";
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
+            aviso.textContent = "Solo letras minúsculas y sin acentos";
         },1500);
     }
 
@@ -103,6 +107,7 @@ btnDesencriptar.addEventListener("click", e=>{
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
+            aviso.textContent = "Solo letras minúsculas y sin acentos";
         },1500);
     }
 
